@@ -1,0 +1,16 @@
+{
+    "name": "elsayed_nofal/backend-roles",
+    "description": "Manage Backend Users Roles",
+    "type": "library",
+    "license": "none",
+    "authors": [{
+        "name": "elsayed",
+        "email": "elsayed_nofal@ymail.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Elsayednofal\\BackendRoles\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+ 
+<div class="uploader ">
+
+    <img src="profile_picture" id="image" class="image-upload" width="120" height="120" />
+    <br/>
+  
+        <input type="file"  class="img-upload-input-bs" editor="#img-upload-panel" target="#image" status="#status" passurl="" pshape="square" w=300 h=300 size="{150,150}">
+ {input}
+</div>
+        
+
+               
+                <div class="modal fade" id="img-upload-panel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Upload Profile Photo</h4>
+            <button type="button" class="img-remove-btn-bs close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="row container">
+            <div class="col">
+                <div class="img-edit-container"></div>
+            </div>
+            </div>
+            <div class="row container">
+            <div class="col">
+                <label>Brightness</label>
+                <input type="range" class="form-control-range filter" min=0 max=200 value=100 step=1 filter="brightness"/>
+            </div>
+            <div class="col">
+                <label>Threshold</label>
+                <input type="range" class="form-control-range filter" min=0 max=200 value=100 step=1 filter="threshold"/>
+            </div>
+            </div>
+            <div class="row container">
+            <div class="col">
+                <button type="button" class="btn btn-dark filter" filter="grayscale">Grayscale</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark filter" filter="sharpen">Sharpen</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark filter" filter="blur">Blur</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark img-clear-filter">Clear</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark img-rotate-left">Rotate Left</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark img-rotate-right">Rotate Right</button>
+            </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary img-remove-btn-bs">Close</button>
+            <button type="button" class="btn btn-primary img-upload-btn-bs">Upload</button>
+        </div>
+        </div>
+    </div>
+    </div>

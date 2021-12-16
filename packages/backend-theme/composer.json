@@ -1,0 +1,14 @@
+{
+    "name": "media-sci/backend-theme",
+    "description": "publish the backend theme to your laravel resource project and add assets to public",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Media Sci",
+            "email": "elsayed.nofal90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

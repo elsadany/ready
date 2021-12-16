@@ -1,0 +1,14 @@
+{
+    "name": "media-sci/helpers",
+    "description": "helper packages for : images , maps and editor and soo on",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elsayed Nofal",
+            "email": "elsayed.nofal90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
